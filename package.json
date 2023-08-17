@@ -1,0 +1,16 @@
+{
+  "name": "william-dummy-lang",
+  "description": "My dummy programming language that compiles specific syntax arithmetical expressions to JavaScript expressions",
+  "version": "1.0.0",
+  "contributors": [
+    "Guilherme Nogueira <guilherme.lopesn@gmail.com>"
+  ],
+  "license": "GNU-GPL-3",
+  "scripts": {
+    "compile": "node src/scripts/compile-file.js",
+    "execute": "node src/scripts/execute-file.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
